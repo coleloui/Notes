@@ -122,7 +122,6 @@ var renderNoteList = function(notes) {
     $li.append($span, $delBtn);
     noteListItems.push($li);
   }
-
   $noteList.append(noteListItems);
 };
 
